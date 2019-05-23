@@ -1,0 +1,22 @@
+{
+  "name": "ImpartTools",
+  "version": "0.1.0",
+  "summary": "A short description of ImpartTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mborsten/ImpartTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mborsten": "marcel@impart.nl"
+  },
+  "source": {
+    "git": "https://github.com/mborsten/ImpartTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ImpartTools/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ImpartTools (0.1.0)
+
+DEPENDENCIES:
+  - ImpartTools (from `../`)
+
+EXTERNAL SOURCES:
+  ImpartTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImpartTools: 3e5816643323a1f62040d02100430612704568c6
+
+PODFILE CHECKSUM: 3deedcad6b82f45cbf36c63ad495b1d8505c729b
+
+COCOAPODS: 1.7.0

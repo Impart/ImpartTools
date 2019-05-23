@@ -1,0 +1,6 @@
+framework module ImpartTools {
+  umbrella header "ImpartTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
