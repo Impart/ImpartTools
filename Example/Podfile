@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ImpartTools_Tests' do
+  pod 'ImpartTools', :path => '../'
+  
+  
+end
