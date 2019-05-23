@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1CD7B52721350DFA26A57C568DA8C0E4 /* ImpartTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B88701125E1C6E3AE0A5B7AD96D0E3 /* ImpartTools-dummy.m */; };
-		1F9A380D7FEBFE95612A39523557652F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FEB24CEC808F57B84E59B870A7DAF7 /* ReplaceMe.swift */; };
+		2C8AC30B2296CA79003FEF0B /* UIFont+extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC30A2296CA79003FEF0B /* UIFont+extenions.swift */; };
+		2C8AC30D2296CAD3003FEF0B /* String+extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC30C2296CAD3003FEF0B /* String+extenions.swift */; };
+		2C8AC30E2296CFFB003FEF0B /* UIFont+extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC30A2296CA79003FEF0B /* UIFont+extenions.swift */; };
+		2C8AC30F2296CFFD003FEF0B /* String+extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC30C2296CAD3003FEF0B /* String+extenions.swift */; };
+		2C8AC3112296D073003FEF0B /* UIViewController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3102296D073003FEF0B /* UIViewController+extensions.swift */; };
 		37957D426AAE2E6DB18E327714E6CE41 /* Pods-ImpartTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 021F78205AA674B510CBB44B98F9BA88 /* Pods-ImpartTools_Tests-dummy.m */; };
 		44E7C304650977171944D8F99D2E7AAB /* ImpartTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9B9809F853D36EEDFAB13CFA0B66D6 /* ImpartTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85BA60832696640322AD5FCB9CBF8D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -30,26 +34,28 @@
 		021F78205AA674B510CBB44B98F9BA88 /* Pods-ImpartTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImpartTools_Tests-dummy.m"; sourceTree = "<group>"; };
 		02EA8A31A29452243D7039812975115E /* ImpartTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImpartTools-prefix.pch"; sourceTree = "<group>"; };
 		0814C3CF3949964D5465383283C192CD /* ImpartTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImpartTools.modulemap; sourceTree = "<group>"; };
-		10FEB24CEC808F57B84E59B870A7DAF7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ImpartTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1DEBFDCA4EE16CA5E6507C1647EEB91F /* Pods-ImpartTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImpartTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		229E3494B9FFA9C5648BD23194DDCBD1 /* Pods_ImpartTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImpartTools_Tests.framework; path = "Pods-ImpartTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229E3494B9FFA9C5648BD23194DDCBD1 /* Pods_ImpartTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImpartTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		284F112894376C62A3E2F58AE9B2D4FE /* Pods-ImpartTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImpartTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2C8AC30A2296CA79003FEF0B /* UIFont+extenions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+extenions.swift"; path = "ImpartTools/Classes/UIFont+extenions.swift"; sourceTree = "<group>"; };
+		2C8AC30C2296CAD3003FEF0B /* String+extenions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+extenions.swift"; path = "ImpartTools/Classes/String+extenions.swift"; sourceTree = "<group>"; };
+		2C8AC3102296D073003FEF0B /* UIViewController+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+extensions.swift"; path = "ImpartTools/Classes/UIViewController+extensions.swift"; sourceTree = "<group>"; };
 		2F7902EBA601EF06FF1499035A9D2C3F /* Pods-ImpartTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImpartTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3DAF210E2BF5843A549D2F35749858C5 /* Pods-ImpartTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImpartTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		570BBD64B16519D885B090C0499DFE98 /* ImpartTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImpartTools.framework; path = ImpartTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570BBD64B16519D885B090C0499DFE98 /* ImpartTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImpartTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF2CF5464589CB312C751474E718ED5 /* Pods-ImpartTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImpartTools_Tests-Info.plist"; sourceTree = "<group>"; };
 		6316C2CCEAB657D4311E8A97F7812E9B /* Pods-ImpartTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImpartTools_Tests.modulemap"; sourceTree = "<group>"; };
 		69B88701125E1C6E3AE0A5B7AD96D0E3 /* ImpartTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImpartTools-dummy.m"; sourceTree = "<group>"; };
 		9C9B9809F853D36EEDFAB13CFA0B66D6 /* ImpartTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImpartTools-umbrella.h"; sourceTree = "<group>"; };
 		9D54F318903823AB1C29AD64D67EF6FE /* Pods-ImpartTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImpartTools_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E3139E472560BF1A9E3BBBDA82EE908 /* ImpartTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImpartTools.xcconfig; sourceTree = "<group>"; };
 		C9A9B8487E1013929227C5D652452B5A /* ImpartTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImpartTools-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2057755CCE273BACC9FFC5251E04CC1 /* Pods-ImpartTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImpartTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D32F95448335AD2102B409D3341D2ABE /* ImpartTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ImpartTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D34B295EEE20AEC50ED624ACCA46A78D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		FA38939AD9C248ACB68AE877AD29EAD9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D32F95448335AD2102B409D3341D2ABE /* ImpartTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ImpartTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D34B295EEE20AEC50ED624ACCA46A78D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA38939AD9C248ACB68AE877AD29EAD9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +131,9 @@
 		C00CCB2C3883AAAC3AF0E3E220181A33 /* ImpartTools */ = {
 			isa = PBXGroup;
 			children = (
-				10FEB24CEC808F57B84E59B870A7DAF7 /* ReplaceMe.swift */,
+				2C8AC3102296D073003FEF0B /* UIViewController+extensions.swift */,
+				2C8AC30C2296CAD3003FEF0B /* String+extenions.swift */,
+				2C8AC30A2296CA79003FEF0B /* UIFont+extenions.swift */,
 				D1435C53F875EC6CB34F0F03BB931F6C /* Pod */,
 				D00C3B9E65A5E47A508689A283D74319 /* Support Files */,
 			);
@@ -249,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -284,6 +293,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8AC30E2296CFFB003FEF0B /* UIFont+extenions.swift in Sources */,
+				2C8AC30F2296CFFD003FEF0B /* String+extenions.swift in Sources */,
 				37957D426AAE2E6DB18E327714E6CE41 /* Pods-ImpartTools_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,8 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8AC3112296D073003FEF0B /* UIViewController+extensions.swift in Sources */,
+				2C8AC30D2296CAD3003FEF0B /* String+extenions.swift in Sources */,
+				2C8AC30B2296CA79003FEF0B /* UIFont+extenions.swift in Sources */,
 				1CD7B52721350DFA26A57C568DA8C0E4 /* ImpartTools-dummy.m in Sources */,
-				1F9A380D7FEBFE95612A39523557652F /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,8 +569,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

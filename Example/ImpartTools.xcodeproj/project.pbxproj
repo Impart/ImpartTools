@@ -14,13 +14,13 @@
 /* Begin PBXFileReference section */
 		1847FEA798658A1689A080A6 /* Pods-ImpartTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImpartTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-ImpartTools_Tests/Pods-ImpartTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2A9200B5A9384A35F6DF44CA /* Pods_ImpartTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImpartTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2ED421C413A8C79DE1E4FD35 /* ImpartTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ImpartTools.podspec; path = ../ImpartTools.podspec; sourceTree = "<group>"; };
+		2ED421C413A8C79DE1E4FD35 /* ImpartTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ImpartTools.podspec; path = ../ImpartTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* ImpartTools_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpartTools_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		76FC18D093FBA7731ADBDF5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		76FC18D093FBA7731ADBDF5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AA3CEA586E65613AA81DCFF6 /* Pods-ImpartTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImpartTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ImpartTools_Tests/Pods-ImpartTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D4B6E32A084CE6E2118A0584 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D4B6E32A084CE6E2118A0584 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,6 @@
 				AA3CEA586E65613AA81DCFF6 /* Pods-ImpartTools_Tests.debug.xcconfig */,
 				1847FEA798658A1689A080A6 /* Pods-ImpartTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
