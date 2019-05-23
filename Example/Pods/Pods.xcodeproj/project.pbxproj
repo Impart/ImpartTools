@@ -13,8 +13,6 @@
 		2C8AC30E2296CFFB003FEF0B /* UIFont+extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC30A2296CA79003FEF0B /* UIFont+extenions.swift */; };
 		2C8AC30F2296CFFD003FEF0B /* String+extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC30C2296CAD3003FEF0B /* String+extenions.swift */; };
 		2C8AC3112296D073003FEF0B /* UIViewController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3102296D073003FEF0B /* UIViewController+extensions.swift */; };
-		2C8AC3132296D83E003FEF0B /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3122296D83E003FEF0B /* TextField.swift */; };
-		2C8AC3142296D83E003FEF0B /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3122296D83E003FEF0B /* TextField.swift */; };
 		37957D426AAE2E6DB18E327714E6CE41 /* Pods-ImpartTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 021F78205AA674B510CBB44B98F9BA88 /* Pods-ImpartTools_Tests-dummy.m */; };
 		44E7C304650977171944D8F99D2E7AAB /* ImpartTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9B9809F853D36EEDFAB13CFA0B66D6 /* ImpartTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85BA60832696640322AD5FCB9CBF8D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -42,7 +40,6 @@
 		2C8AC30A2296CA79003FEF0B /* UIFont+extenions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+extenions.swift"; path = "ImpartTools/Classes/UIFont+extenions.swift"; sourceTree = "<group>"; };
 		2C8AC30C2296CAD3003FEF0B /* String+extenions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+extenions.swift"; path = "ImpartTools/Classes/String+extenions.swift"; sourceTree = "<group>"; };
 		2C8AC3102296D073003FEF0B /* UIViewController+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+extensions.swift"; path = "ImpartTools/Classes/UIViewController+extensions.swift"; sourceTree = "<group>"; };
-		2C8AC3122296D83E003FEF0B /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = ImpartTools/Classes/TextField.swift; sourceTree = "<group>"; };
 		2F7902EBA601EF06FF1499035A9D2C3F /* Pods-ImpartTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImpartTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3DAF210E2BF5843A549D2F35749858C5 /* Pods-ImpartTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImpartTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		570BBD64B16519D885B090C0499DFE98 /* ImpartTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImpartTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,7 +131,6 @@
 		C00CCB2C3883AAAC3AF0E3E220181A33 /* ImpartTools */ = {
 			isa = PBXGroup;
 			children = (
-				2C8AC3122296D83E003FEF0B /* TextField.swift */,
 				2C8AC3102296D073003FEF0B /* UIViewController+extensions.swift */,
 				2C8AC30C2296CAD3003FEF0B /* String+extenions.swift */,
 				2C8AC30A2296CA79003FEF0B /* UIFont+extenions.swift */,
@@ -300,7 +296,6 @@
 				2C8AC30E2296CFFB003FEF0B /* UIFont+extenions.swift in Sources */,
 				2C8AC30F2296CFFD003FEF0B /* String+extenions.swift in Sources */,
 				37957D426AAE2E6DB18E327714E6CE41 /* Pods-ImpartTools_Tests-dummy.m in Sources */,
-				2C8AC3142296D83E003FEF0B /* TextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +306,6 @@
 				2C8AC3112296D073003FEF0B /* UIViewController+extensions.swift in Sources */,
 				2C8AC30D2296CAD3003FEF0B /* String+extenions.swift in Sources */,
 				2C8AC30B2296CA79003FEF0B /* UIFont+extenions.swift in Sources */,
-				2C8AC3132296D83E003FEF0B /* TextField.swift in Sources */,
 				1CD7B52721350DFA26A57C568DA8C0E4 /* ImpartTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
